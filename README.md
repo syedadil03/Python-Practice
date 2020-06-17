@@ -15,4 +15,29 @@ def electricity_charges(previous_month_arrears):
 def KESC(current_bill, previous_month_arrears):
     overall = current_bill + electricity_charges(previous_month_arrears)
     print(f"Dear User Your Bill Is {overall}")
+    
+ 51. While Loops:
+ 
+ #1 
+order = True
+today_menu = []
+while order:
+    userinput= input("Kindly book your order")
+    if userinput == "next":
+        order = False
+    else:
+        today_menu.append(userinput)
+today_menu
+
+#2
+flag = True
+favdish= []
+while flag:
+    userinput = input("Enter Your Favourite Dish")
+    if userinput =="stop":
+        flag = False
+    else:
+        favdish.append(userinput)
+favdish
+    
 
