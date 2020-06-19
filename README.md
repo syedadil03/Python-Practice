@@ -40,9 +40,9 @@ while flag:
         favdish.append(userinput)
 favdish
 
-52. Classes
+      52. Classes
 
-class Car():
+      class Car():
     # attributes >>>>>> are variables in programming
     #################################################
     def __init__(self, brand, engine_cc, year, transmission, color):
@@ -77,8 +77,8 @@ class Car():
         print(f"Your car battery size is {self.battery}")
         
     Changing an Attributes values
-1) Direct hit the attributes
-2) Via function (get set)
+    1) Direct hit the attributes
+    2) Via function (get set)
 
 
     
